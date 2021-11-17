@@ -6,7 +6,7 @@ const app = express();
 
 // connect db
 const connectDB = require('./db/connect');
-
+// router
 const productRouters = require('./routes/products');
 
 const notFoundMiddleware = require('./middleware/not-found');
